@@ -1,0 +1,87 @@
+/* Include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+}
+body
+{
+  width: 100%;
+  text-align: center;
+  border: 5px solid #000;
+  border-radius: 10px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+header
+{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  width: 90%;
+  border: 5px solid #000;
+  margin: auto;
+  border-radius: 10px;
+}
+div
+{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  border: 5px solid #000;
+}
+div input
+{
+  width: 80%;
+  height: 50px;
+}
+div button
+{
+  width: 20%;
+}
+header ol
+{
+  width: 50%;
+  margin:auto;
+  text-align: left;
+  /* border: 5px solid #195  ; */
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+header ol li
+{
+  display: flex;
+  flex-flow: row nowrap;
+  width:100%;
+  border: 5px solid #000;
+  text-align: center;
+  /* border: 5px solid #241  ; */
+
+}
+header ol li span
+{
+  width:50%;
+  /* border: 5px solid #241  ; */
+  justify-content: space-between;
+}
+header ol li button
+{
+  display: flex;
+  justify-content: space-around;
+  width:25%;
+}
+
+/* Style the "Add" button */
+#ok {
+    padding: 10px;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#ok:hover {
+    background-color: #bbb;
+}
